@@ -43,8 +43,8 @@ import json
 import os
 from collections import Counter
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/dip_reversal_persist.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/dip_reversal_persist.json"
 CD_FILL_FLOOR = 15
 
 E_CAPS = [0.10, 0.15, 0.20, 0.25]
