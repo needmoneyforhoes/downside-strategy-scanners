@@ -42,3 +42,8 @@ python3 newstrat_dip_reversal_persist.py
 Reads recorded tick replays from the private polymarket-data repo: `market_history.jsonl` (markets with a `ticks` array and resolved `winner`) and `market_panel.json`. Not included here. `newstrat_dip_reversal_persist.py` hardcodes `$DATA_DIR/market_panel.json` in and `$DATA_DIR/edge_pnl/dip_reversal_persist.json` out; repoint these to your local data directory before running.
 
 Python 3.8+, standard library only. No wallet, API key, or network access; these neither trade nor handle funds.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/downside-strategy-scanners/issues/new). Pull requests are welcome too.
